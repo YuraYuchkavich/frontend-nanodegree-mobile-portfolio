@@ -1,128 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  
- 
+<html>
 
-    
+	<head>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet" type = "text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type = "text/css">
    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" FILL ME IN ">
-    <meta name="author" content=" FILL ME IN ">
-    <title>Cameron Pittman: Portfolio</title>
-    <style>
-
-	html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: none;
-}
-body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
-body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
-
-a { color: #12C; }
-a:visited { color: #61C; }
-a:focus { outline: thin dotted; }
-a:hover, a:active { color: #c00; outline: 0; }
-
-b, strong { font-weight: bold; }
-pre, code { font-family: monospace, monospace; font-size: 1em; }
-ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
-img { border: 0; max-width: 100%; }
-
-body { background: #fff; }
-header, footer { max-width: 45em; margin: 0 auto; }
-
-header { padding: 0 0.5em; color: #C90B0B; }
-header img { border-radius: 40px; float: left; }
-header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
-header p span { font-size: 0.8em; font-weight: normal;}
-
-
-li img { float:left; padding-right: 1em; }
-li p { font-size: 0.9em; font-style: italic; }
-		.hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
-		border-bottom: 1px solid #ccc;
-		border-top: 1px solid #ccc;
-		}
-        .container { max-width: 45em; margin: 0 auto; }
-		.content { padding: 1em 1em; }
-		.content li { list-style-type: none; font-size: 1.1em;}
-
-footer {
-  padding: 0 0.5em;
-  border-top: 1px solid #ccc;
-}
-footer span { float: right; font-style: italic; }
-
-/* Smartphones (portrait) */
-@media only screen and (max-width: 480px) {
-  body { font-size: 12px;}
-  header p { padding-left: 4.5em;}
-}
-
-    </style>
-   
-   
-  </head>
-
-  <body>
-    <header>
-      <a href="/"><img src="img/profilepic.jpg"></a>
-      <p>Cameron Pittman<br><span>Course Developer</span></p>
-    </header>
-
-    <div class="container">
-      <div class="hero">
-        <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br> Contact me: me@email.com
-      </div>
-	  <header>
-      <a href="/"><img src="img/my-foto.jpg"></a>
-      <p>Yura Yuchkavich<br><span>Student course</span></p>
-    </header>
-
-    <div class="container">
-      <div class="hero">
-        <strong>My name is Ychkavich Yura Stanislavovich. I love web development!</strong><br> Contact me: nhyyhn@tut.by, +375295759428
-      </div>
-
-      <div class="content">
-        <ul>
-          <li>
-            <img src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100">
-            <a href="project-2048.html">Build Your Own 2048!</a>
-            <p>I made my own version of 2048. How cool is that!?</p>
-          </li>
-
-          <li>
-            <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
-            <a href="project-webperf.html">Website Performance Optimization</a>
-            <p>Hey... this class looks familiar.</p>
-          </li>
-
-          <li>
-            <img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100">
-            <a href="project-mobile.html">Mobile Web Development</a>
-            <p>Making mobile apps isn't so hard after all.</p>
-          </li>
-
-          <li>
-            <img style="width: 100px;" src="views/images/pizzeria.jpg">
-            <a href="views/pizza.html">Cam's Pizzeria</a>
-            <p>Who wants a performant pizza?</p>
-          </li>
-        </ul>
-      </div>
-
-      <footer>
-        <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
-      </footer>
-    </div>
-  </body>
+	</head>
+	
+	
+	<body>
+		<div class="main_content">
+			<header class="header">
+				<div class="wrapper">
+					<div class="menu">
+					<div class="menu_1"><i class="fa fa-bars" aria-hidden="true"></i></div>
+					<div class="clearfix"></div>
+					<div class="logotype"> 
+						<img src="img/logo.png" class="header_logo" alt="no pikcher"><div class="blog">BLOG</div></div>
+					<div class="clearfix"></div>
+					<nav class="header_menu">
+						<a href="#" class="transt"><i class="fa fa-wifi transt"  aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+						<a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+					</nav>
+					</div>
+				</div>
+			</header>
+			
+			
+			<main class="main">
+				<div class="fon_main">
+				</div>
+				<div class="wrapper clearfix">
+					<div class="promo">
+								<img src="img/men.png" alt="no pikcher">
+								<div class="promo_news">Latest News</div>
+								<h1>BODYBUILDING BEST FOR YOU HEALTH</h1>
+								<div class="promo_nav_text"> FEATURED ARTICLE</div>
+								<div class ="promo_dots">
+									<div class="dot"></div>
+									<div class="dot"></div>
+									<div class="dot"></div>
+								</div>
+							
+								<div class="promo_up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></div>
+								<div class="promo_down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
+							
+						</div>
+						<div class="clearfix"></div>
+					<div class="search">
+						<h2>SIGNUP TO NEWSLETTER</h2>
+						<form action="index.php" method="post" class="search_form">
+						
+						 <input type="text" name="name"  placeholder="YOUR NAME" class="form_text">
+						 <input type="email" name="email" placeholder="YOUR EMAIL ADRESS"  class="form_text">
+					     <input type="submit" name="review" value="SUBSCRIBE NOW" class="buttom_form_reveiw">
+						 
+						</form>
+					</div>
+	
+					
+					</div>
+					
+					<div class="wrapper clearfix">
+						<div class="news_letters">
+						<center>
+						<div class="coloms">
+							<div class="coloms_1">
+							    
+								<i class="fa fa-pencil-square coloms_i" aria-hidden="true"></i>
+								<p class="coloms_text_1">TRAVELLING</p>
+								<h4>TRAVEL BEST ADVENTURE</h4>
+								<p class="coloms_text_1">JANURY 25, 2016</p>
+								<p class="coloms_text_2">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work</p>
+								<a href="#" class="coloms_read_more">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									NO COMMENTS
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							<div class="new_2"></div>
+							<div class="new_3">
+								
+								<p class="coloms_text_1">TRAVELLING</p>
+								<h4>TRAVEL BEST ADVENTURE</h4>
+								<p class="coloms_text_1">JANURY 25, 2016</p>
+								<p class="coloms_text_2">Lorem ipsum doloirs sit amet, csatetur adipisicin, sed does eiusmod tehampor incididunt uts laboasre et dolhvaliqua. Ut enim  vem, nostrasuaations ullamco labiosi ut saaliquip exoi asea comoodo Disco choice is the have great work</p>
+								<a href="#" class="coloms_read_more">READ MORE</a>
+								
+							</div>
+							
+						</div>
+						
+							<div class="coloms">
+								
+								<div class="coloms_1">
+								<div class="new_3_block"></div>
+								<i class="fa fa-picture-o coloms_i2" aria-hidden="true"></i>
+								<p class="coloms_text_1">TRAVELLING</p>
+								<h4>STANDART IMAGE POST</h4>
+								<p class="coloms_text_1">JANURY 25, 2016</p>
+								
+								<a href="#" class="coloms_read_more">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									TRAVELLING
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							
+							<div class="new_black">
+								<i class="fa fa-picture-o coloms_i_black" aria-hidden="true"></i>
+								<p class="coloms_text_2black">As per Lorm ipsum dolor sitamet, 
+consectetur adipisicing elits, sed do Now eiusmod tempor havei ut labores et dolore magna aliqusa. Ut wenim ad minim veniam, quis 
+its a snostrud now is the ullamco 
+ aliquip ex ea commodo .</p>
+								<p class="coloms_text_1black">NATHALIA ALEXY</p>
+								
+							</div>
+							
+							<div class="new_black_1">
+								<i class="fa fa-picture-o coloms_i_black" aria-hidden="true"></i>
+								<img src="img/video.png" alt="no_pikcher">
+								
+							</div>
+							
+							<div class="coloms_1">
+								<p class="coloms_text_1">DESIGNER</p>
+								<h4>VIDEO IMAGE POST STYLE</h4>
+								<p class="coloms_text_1">JANURY 25, 2016</p>
+								<p class="coloms_text_2">A CONAN staffer is learning the rules of the in  road, with a little help from Look out, fellow drivers</p>
+								<a href="#" class="coloms_read_more">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									TRAVELLING
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="coloms">
+								
+								<div class="coloms_1">
+								<i class="fa fa-pencil-square coloms_i" aria-hidden="true"></i></i>
+								<p class="coloms_text_1">FASHION</p>
+								<h4>SIMPLE POST STYLE</h4>
+								<p class="coloms_text_1 fix">JANURY 02, 2016</p>
+								
+								<a href="#" class="coloms_read_more_coloms3">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									TRAVELLING
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+							    		<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							
+							<div class="coloms_1 fix_coloms">
+								<i class="fa fa-picture-o" aria-hidden="true"></i>
+								<p class="coloms_text_1">ADVENTURES</p>
+								<h4>AWESOME GALLERY POST</h4>
+								<p class="coloms_text_1">JANURY 02, 2016</p>
+								<a href="#" class="coloms_read_more">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									TRAVELLING
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							
+							
+							<div class="new_black_new10">
+								<i class="fa fa-windows coloms_i2" aria-hidden="true"></i>
+								<a href="#">http:/www.abcdomainname.com/screen/discovery</a>
+								</div>
+							
+							<div class="new_black_a">
+								<i class="fa fa-windows coloms_i2" aria-hidden="true"></i>
+								
+								
+							</div>
+							
+						</div>
+						<div class="coloms">
+								
+							<div class="new_4"></div>
+							
+							<div class="coloms_1">
+								<i class="fa fa-picture-o coloms_i" aria-hidden="true"></i>
+								<p class="coloms_text_1">LIFESTYLE</p>
+								<h4>WITHOUT IMAGE POST</h4>
+								<p class="coloms_text_1 fix1">JANURY 07, 2016</p>
+								
+								<a href="#" class="coloms_read_more_coloms3">READ MORE</a>
+								<div class="coloms_coment">
+									<i class="fa fa-comments-o coloms_i_1" aria-hidden="true"></i>
+									TRAVELLING
+									<i class="fa fa-dribbble coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-twitter coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-facebook coloms_i_2" aria-hidden="true"></i>
+									<i class="fa fa-pinterest coloms_i_3" aria-hidden="true"></i>
+									
+								</div>
+							</div>
+							<div class="coloms_1 fix_coloms1">
+								<i class="fa fa-picture-o coloms_i" aria-hidden="true"></i>
+								<p class="coloms_text_1">LIFESTYLE</p>
+								<h4>WITHOUT IMAGE POST</h4>
+								<p class="coloms_text_1">JANURY 07, 2016</p>
+                                 <div class="circle1"></div>
+							</div>
+							
+						</div>
+                        </center>
+						</div>
+					
+					</div>
+			</main>
+		</div>
+		
+		
+		<footer>
+			
+			<div class="footer_main_block">
+				<div class="wrapper">
+					<div class="footer_block_list">
+						<div class="footer_block_list_li">
+							<h6>ABOUT BLOG</h6>
+							<p>Lorem ipsum dolor sit amet, conser adipisicing esse cillum nulla pariatur.</p>
+							<div class="footer_sign"><img src="img/sign.png"  alt="no pikchirs"></div>
+						</div>
+						<div class="footer_block_list_li">
+							<h6>LATEST TWEETS</h6>
+							<div class="footer_twitter"><i class="fa fa-twitter" aria-hidden="true"></i><p>@Twitter@magicalrebekah</p></div>
+							<p>Developer Advocate @heyval isaiyou knows the very well is about things .</p>
+							<div class="footer_twitter"><i class="fa fa-twitter" aria-hidden="true"></i><p>@Twitter@magicalrebekah</p></div>
+							<p>Developer Advocate @heyval isaiyou knows the very well is about things .</p>
+						</div>
+						<div class="footer_block_list_li">
+							<h6>FOLLOW ME INSTAGRAM</h6>
+							<div class="footer_inst">
+								<div class="footer_inst_foto"></div>
+								<div class="footer_inst_foto"></div>
+								<div class="footer_inst_foto"></div>
+								<div class="footer_inst_foto"></div>
+								<div class="footer_inst_foto"></div>
+								<div class="footer_inst_foto"></div>
+							</div>
+						</div>
+						<div class="footer_block_list_li">
+							<h6>LATEST COMMENT</h6>
+							<div class="footer_twitter"><p>From Alex:</p></div>
+							<p>Developer Advocate @heyval isaiyou knows the very well is about things .</p>
+							<div class="footer_twitter"><p>From Jhon Doe:</p></div>
+							<p>Developer Advocate @heyval isaiyou knows the very well is about things .</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_copywrite">
+				@2015 copyright .all right reserved by awesome theme   i   terms policy   i   disclaimer
+			</div>
+		
+		
+		
+		
+		</footer>
+	
+	
+	</body>
 </html>
-
- <link href="css/print.css" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
